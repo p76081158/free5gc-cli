@@ -5,7 +5,7 @@ info:
 configuration:
   mongodb:
     name: free5gc
-    url: mongodb://172.16.100.30:27018
+    url: mongodb://127.0.0.1:27018
 
 plmn:
   value:
