@@ -3,11 +3,13 @@ info:
   description: "Freecli - gNB module"
 
 configuration:
+  # amf ip
   amfInterface:
-    ipv4Addr: "172.16.10.2"
+    ipv4Addr: "127.0.0.1"
     port: 38412
+  # upf ip
   upfInterface:
-    ipv4Addr: "172.16.10.2"
+    ipv4Addr: "127.0.0.1"
     port: 2152
   ngranInterface:
     ipv4Addr: "172.16.20.2"
